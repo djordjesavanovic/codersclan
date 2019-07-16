@@ -1,0 +1,185 @@
+@font-face {
+    font-family: "Myriad Pro";
+    src: url(../fonts/MyriadPro-Regular.ttf);
+}
+
+body {
+    margin: 0;
+}
+
+@media(min-width: 1200px){
+    .wrapper{
+        width: 1420px;
+        margin: 0 auto;
+    }
+
+    .col-1-5{
+        width: 30%;
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .col-1-5-small{
+        width: 5%;
+        position: relative;
+        min-height: 1px;
+    }
+}
+
+#parallax-container {
+    display: block;
+    height: 710px;
+    background: white;
+}
+
+#parallax-container div {
+    position: fixed;
+    top: 0;
+    background-position: center !important;
+    transform: translateY(0px);
+    height: 710px;
+    width: 100%;
+}
+
+#content {
+    position: relative;
+    background-color: #ffffff;
+}
+
+.headline {
+    color: #4F4E4D;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 99px;
+    text-align: center;
+}
+
+hr.headlineBorder {
+    border-top: 2px solid #FF8108;
+    width: 68px;
+}
+
+.cardOne {
+    border-radius: 10px;
+    box-shadow: 0 0 21px 0 rgba(0, 0, 0, 0.13);
+    background-color: white;
+    padding: 20px;
+    max-height: 388px;
+}
+
+.cardTwo {
+    border: 2px solid rgb(232, 232, 232);
+    border-radius: 10px;
+    box-shadow: 0 0 21px 0 rgba(0, 0, 0, 0.13);
+    background-color: white;
+    padding: 20px;
+    max-height: 384px;
+}
+
+.cardThree {
+    border-radius: 10px;
+    border: 2px solid #E8E8E8;
+    background:
+            linear-gradient(
+                    90deg,
+                    rgba(36,20,223, 0.75) 0%,
+                    rgba(70,26,242, 0.75) 100%
+            ),
+            url('../img/handshake.jpg') center;
+    box-shadow: 0 0 21px 0 rgba(0, 0, 0, 0.13);
+    padding: 20px;
+    max-height: 388px;
+}
+
+.imageMask {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 180px !important;
+    width: 100%;
+    display: block;
+}
+
+.cardHeading {
+    color: #4F4E4D;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 49px;
+}
+
+.cardHeadingWhite {
+    color: #ffffff;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 49px;
+}
+
+.cardParagraph {
+    color: #8C8C8C;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.thirdCardParagraph {
+    color: #C4C4C4;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+img.monitor {
+    padding: 30px 0;
+}
+
+img.next {
+    opacity: 0.2;
+}
+
+.divider {
+    border-top: 1px solid rgba(0, 0, 0, 0.149);
+    width: 100% !important;
+}
+
+.customButton {
+    background-image: linear-gradient(to right, #c165dd 0%, #5c27fe 100%);
+    border-radius: 10px;
+    line-height: 30px;
+    box-sizing: border-box;
+    color: #6F32F8;
+    display: block;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 25px;
+    width: 288px;
+    height: 70px;
+    margin: 0 auto;
+    padding: 2px;
+    position: relative;
+    text-decoration: none;
+    z-index: 2;
+}
+
+.customButton:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.customButton span {
+    align-items: center;
+    background: #ffffff;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    transition: background .5s ease;
+    width: 100%;
+}
+
+.customButton:hover span {
+    background: transparent;
+}
